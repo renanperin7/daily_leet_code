@@ -1,7 +1,4 @@
-import Abril.CountCharacters
-import Abril.IsPalindrome
-import Abril.LongestBalancedSubstring
-import Abril.TwoSum
+import Abril.*
 
 fun main() {
 
@@ -9,6 +6,8 @@ fun main() {
     val twoSum = TwoSum()
     val isPalindrome = IsPalindrome()
     val countCharacters = CountCharacters()
+    val romanToInt = RomanToInt()
+    val maximumLengthSubstring = MaximumLengthSubstring()
 
     longestBalancedSubstring.findTheLongestBalancedSubstring("000001111")
 
@@ -16,5 +15,9 @@ fun main() {
 
     isPalindrome.isPalindrome(121)
 
-    countCharacters.countCharacters(arrayOf("cat", "swap", "dereame"), "cataa")
+    countCharacters.countCharacters(arrayOf("cat", "swap", "dereame", "atack"), "cataak")
+
+    romanToInt.romanToInt("MCMXCIV")
+
+    maximumLengthSubstring.maximumLengthSubstring("bcbbbcba")
 }
