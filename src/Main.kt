@@ -9,6 +9,7 @@ fun main() {
     val romanToInt = RomanToInt()
     val maximumLengthSubstring = MaximumLengthSubstring()
     val mergeSortedArray = MergeSortedArray()
+    val longestCommonPrefix = LongestCommonPrefix()
 
     longestBalancedSubstring.findTheLongestBalancedSubstring("000001111")
 
@@ -23,4 +24,6 @@ fun main() {
     maximumLengthSubstring.maximumLengthSubstring("bcbbbcba")
 
     mergeSortedArray.merge(intArrayOf(1,2,3,0,0,0), 3, intArrayOf(2,5,6), 3)
+
+    longestCommonPrefix.longestCommonPrefix(arrayOf("flower","flow","flight"))
 }
