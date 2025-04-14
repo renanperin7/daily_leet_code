@@ -11,6 +11,7 @@ fun main() {
     val mergeSortedArray = MergeSortedArray()
     val longestCommonPrefix = LongestCommonPrefix()
     val validParentheses = ValidParentheses()
+    val singleNumber = SingleNumber()
 
     longestBalancedSubstring.findTheLongestBalancedSubstring("000001111")
 
@@ -29,4 +30,6 @@ fun main() {
     longestCommonPrefix.longestCommonPrefix(arrayOf("flower","flow","flight"))
 
     validParentheses.isValid("(}")
+
+    singleNumber.singleNumber(intArrayOf(2, 1, 2))
 }
